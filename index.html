@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <div class="image">
+    <img class ="pandu" src="pandu-ior-hckbnUpcm6E-unsplash (1).jpg">
+    <div class="logo">
+        <div class="bg"></div>
+    <img class = "logoimg" src="odin-lined.png">
+    <h1>ODIN</h1>
+    <p class="footer">Photo on Unsplash</p>
+    </div>
+</div>
+    <div class="form">
+        <div class="header">
+            <h4>This is my first form! You know you kneed something like this life to hepl you realize your deepest dreams.</h4>
+
+        </div>
+       
+        <div class="middle">
+            <form action="example.com/path" method="post">
+                <legend>Let's do this!</legend>
+     <div class="inputs">
+        <div class="name">
+                <div class="fn">
+                <label for="first-name">FIRST NAME</label><br>
+                <input type="text" id="first-name"  name="first-name">
+                </div>
+                <div class="ln">
+                <label for="last-name">LAST NAME</label><br>
+                <input type="text" id="last-name" name="last-name">
+                </div>
+        </div>    
+        <div class="epn">    
+                <div class="em">
+                    <label for="email">E-MAIL</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="pn">
+                    <label for="phone-number">PHONE NUMBER</label><br>
+                    <input type="number" id="phone-number" name="phone-number">
+                </div>
+        </div>
+        <div class="password">       
+                <div class="pass">
+                    <label for="passwords">PASSWORD</label><br>
+                    <input type="password" id="passwords" name="passwords">
+                </div>
+                <div class="cn">
+                    <label for="confirm-password">CONFIRM PASSWORD</label><br>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </div>
+        </div>        
+    </div>
+            </form>
+        </div>
+        
+    </div>
+    <div class="bottom">
+    <button onclick="submitFormExternally()">Create Account</button>
+    <p>Already haven't account? <a href="#">Login</a></p>
+    </div>
+</div>
+
+<script>
+    function submitFormExternally() {
+        document.getElementById('myForm').submit();
+    }
+</script>
+</body>
+</html>
